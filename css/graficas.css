@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+h1{	padding-bottom: 3px;	width: 100%;	font: 1.2em Georgia, serif;	color:#ac0402;	border-bottom:dotted 1px #c0c0c0;}
+
+.paddingbody{padding:20px; width:65%}
+
+
+h4{font-size:11px;	padding-left:3px; padding-top:2px; background: #aaac90 url(../imagenes/th_bkg.gif) repeat-x; color: #393b24;text-align:left;margin:0px; margin-bottom:20px;}
+
+.tabla{}
+
+.red{color: red; height:15px;}
+
+#graficador .info{margin-top:20px; }
+
+#graficador th{	padding-left:3px; padding-top:2px; padding-right:3px; background: #aaac90 url(../imagenes/th_bkg.gif) repeat-x; color: #393b24;font-weight: normal;text-align:left;}
+
+#graficador td { font-size:10px;padding: 3px; background-color:#edefd5; 	border-bottom:solid 1px #ecebf0;	text-align:left;}
+
+#graficador a{text-decoration: underline}
+
+#graficador .margin{margin-left:200px; }
+
+.caja{	
+	margin-top: 20px;
+	margin-left:20px;
+	width:600px;
+	border: 1px solid #aaac90;
+	background-color:#edefd5;
+	padding:10px 20px;
+	}

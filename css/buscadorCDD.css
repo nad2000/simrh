@@ -1,0 +1,223 @@
+.cajaBuscador {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  color: #FFFFFF;
+  background-color: #333333;
+  border-top-width: 1px;
+  border-right-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-top-color: #000000;
+  border-right-color: #000000;
+  border-bottom-color: #333333;
+  border-left-color: #999999;
+  background-image: url(../pics/formHD.jpg);
+  background-repeat: repeat-x;
+}
+#buscador .cajaForma1 #butonBusca input {
+}
+
+#form1 {
+  float: left;
+  width: 250px;
+  padding:10px;
+  margin-top: 20px;
+}
+
+#form1 tr { 
+  height: 30px;
+}
+
+#form1 td { 
+  text-align: right;
+  padding-right: 8px;
+}
+
+#Resul {
+  background-color: #000000;
+  padding-left:10px;
+  height:20px;
+}
+#buscador  .cajaResultados  #linkAnterior {
+  display: block;
+  width: 100px;
+}
+
+#buscador .cajaResultados #linkGame {
+  display: block;
+  width: 200px;
+}
+#buscador  .cajaResultados  #linkSiguiente {
+  display: block;
+  width: 100px;
+}
+.cajaResultados {
+  background-color: #FFFFFF;
+}
+#buscador .cajaForma1 #butonBusca input {
+  margin-left: 48%;
+  height: 25px;
+  width: 60px;
+  border-top-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+  border-left-width: 0px;
+  border-top-style: none;
+  border-right-style: none;
+  border-bottom-style: none;
+  border-left-style: none;
+  background-image: url(../pics/enviarBTN.jpg);
+  text-align: center;
+  font-size: 1em;
+  padding-right: 5px;
+}
+
+
+#form2 {
+  float: left;
+  width: 250px;
+  padding:10px;
+  margin-top: 20px;
+}
+
+#form2 td {
+  text-align: right;
+  padding-right: 5px;
+}
+
+#form2 tr {
+  height: 30px;
+}
+
+#form3 {
+  float: left;
+  width: 250px;
+  margin-top: 30px;
+}
+
+#form3 td {
+  text-align: right;
+  width:50%;
+  padding-right:8px;
+  vertical-align:text-top
+}
+
+#form3 tr {
+  height: 30px;
+}
+
+#form3 .boton{
+  margin-top: 15px;
+}
+
+#buscador .cajaForma1 #butonBusca {
+  clear: both;
+  padding-top: 10px;
+  display:block;
+}
+.pestaBusca {
+  position:relative;
+  float:left;
+  width: 10px;
+  padding: 5px;
+  border-top-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+  border-left-width: 0px;
+  border-top-style: none;
+  border-bottom-style: none;
+  border-left-style: none;
+  top: -1px;
+  background-repeat: no-repeat;
+  background-position: left top;
+  height: 110px;
+  border-right-style: none;
+  background-image: url(../pics/pestBGTP.jpg);
+}
+.cajaForma1 {
+  width: 99%;
+}
+input{
+  padding: 2px;
+  font-family:Verdana, Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  border:none;
+  width:141px;
+}
+
+.dropdown{
+  padding: 2px;
+  font-family:Verdana, Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  border:none;
+  width: 149px;
+}
+
+#select{
+text-align:left;
+}
+
+#select input{
+  width: 20px;
+}
+
+#contenedor_sig_ant{
+padding-top: 4px;
+height: 21px;
+width: 100%;
+background-color: #CCCCCC;
+}
+
+#contenedor_sig_ant .excel{
+width:40%;
+float: left;
+display:inline;
+text-align:left;
+margin-left: 5px;
+}
+
+#contenedor_sig_ant .siguiente{
+width:40%;
+font-size:12px;
+float: right;
+display:inline;
+text-align:right;
+margin-right: 20px;
+}
+.info {
+  font-family: verdana,sans-serif;
+  font-size: 11px;
+  line-height: 1.6;
+  background: #f8fafc url(../imagenes/information.png) center no-repeat;
+  background-position: 15px 50%; /* x-pos y-pos */
+  text-align: left;
+  padding: 5px 20px 5px 45px;
+  border-top: 1px solid #b5d4fe;
+  border-bottom: 1px solid #b5d4fe;
+  color:#444444;
+  margin-left:10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  }
+  #alert {
+  font-family: verdana,sans-serif;
+  font-size: 11px;
+  line-height: 1.6;
+  background: #fff6bf url(../imagenes/exclamation.png) center no-repeat;
+  background-position: 15px 10px; /* x-pos y-pos */
+  text-align: left;
+  border-top: 1px solid #ffd324;
+  border-bottom: 1px solid #ffd324;
+  color:#444444;
+  margin-left:10px;
+
+  }
+  
+  #alert td{
+  width:200px;
+  padding: 5px;
+  vertical-align:top;
+  }

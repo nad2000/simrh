@@ -1,0 +1,13 @@
+<files ~ "datosRHpuestos\.xls">
+Order allow,deny
+allow from all
+</files>
+
+<files ~ "datosSAPempleadosypuestos\.xls">
+Order allow,deny
+allow from all
+</files>
+
+
+
+Deny from all

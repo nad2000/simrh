@@ -1,0 +1,26 @@
+@charset "utf-8";
+/* CSS Document */
+h1{	padding-bottom: 3px;	width: 100%;	font: 1.2em Georgia, serif;	color:#ac0402;	border-bottom:dotted 1px #c0c0c0;}
+
+.paddingbody{padding:20px;}
+
+textarea {	font-family: verdana,sans-serif; 	font-size: 11px;	line-height: 1.7em; width:50%; height:5em; margin-top:-1px}
+td.creador { font-size:10px;padding: 3px; background-color:#FFFFFF; 	border-bottom:solid 1px #ecebf0;	text-align:left;}
+
+.note {
+	font-family: verdana,sans-serif;
+	font-size: 11px;
+	line-height: 1.6;
+	background-position: 15px 50%; /* x-pos y-pos */
+	text-align: left;
+	padding: 2px 2px 2px 5px;
+	border-top: 1px solid #b5d4fe;
+	border-bottom: 1px solid #b5d4fe;
+	color:#444444;
+	margin:5px;
+	 width:50%;
+	}
+
+
+
+

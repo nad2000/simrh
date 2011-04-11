@@ -1,0 +1,123 @@
+.jTPS .sortedColumn {
+	background: #e6edf7;
+}
+.jTPS tfoot .pagination .pageSelector {
+	cursor: pointer;
+	border: 1px solid #808008;
+/*	padding-left: 5px;
+	padding-right: 5px; 
+	margin-left: 5px;*/
+	text-align: center;
+	float: left;
+	background: #fff;
+}
+.jTPS tfoot .pagination .pageSelectorSeperator {
+	text-align: center;
+/*	margin-left: 7px; */
+	color: #8080FF;
+	float: left;
+/*	padding-left: 5px;
+	padding-right: 5px; */
+	border-width: 1px;
+	cursor: default;
+}
+.jTPS tfoot .pagination .pageSelector:hover {
+	border: 1px solid #fF0;
+}
+.jTPS tfoot .pagination .hilightPageSelector {
+	border: 1px solid #069 !important;
+	background: #069 !important;
+	color: #fff !important;
+	cursor: default !important;
+}
+.jTPS .hideTR {
+	display: none;
+}
+.jTPS .hidePageSelector {
+	display: none;
+}
+.jTPS .hilightRow {
+	cursor: pointer;
+	color: #393b24; /* color texto de filas al over */
+	background-color: #edefd5; /* bkg de filas al over */
+}
+.jTPS tfoot .selectPerPage .perPageSelector {
+	cursor: pointer;
+/*	padding-left: 5px;
+	padding-right: 5px;*/
+}
+.jTPS tfoot .selectPerPage .perPageSelected {
+	border-bottom: 1px solid #069;
+	background: #fff;
+}
+.jTPS tfoot .selectPerPage .perPageHilight {
+	border-bottom: 1px solid #f90;
+	background: #fff;
+}
+.jTPS tfoot .pagination, tfoot .paginationTitle, tfoot .selectPerPage {
+	float: right;
+	white-space: nowrap;
+	line-height: 25px;
+	vertical-align: middle;
+}
+.jTPS tfoot .status {
+	white-space: nowrap;
+	line-height: 25px;
+	vertical-align: middle;
+}
+.jTPS tfoot .paginationTitle {
+/*	padding-left:20px; */
+}
+.jTPS .sortableHeader:hover {
+	cursor: pointer;
+	color: black;  /* color de titulo de columna over */
+}
+.jTPS .sortableHeader{
+	color: #393b24;
+	font:10px "Verdana", sans-serif; /*color de texto de titulo de columnas */
+}
+
+.jTPS .sortAsc {
+	border-bottom: 1px solid #e3e3e3;
+	background: #bcbcbc center -4px no-repeat;
+}
+.jTPS .sortDesc {
+	border-bottom: 1px solid #e3e3e3;
+	background: #bcbcbc  center -4px no-repeat;
+}
+.jTPS tfoot td {
+/*	padding: 5px; */
+	background: #eee url(eeGrad2.gif) bottom repeat-x;
+}
+.jTPS thead th {
+	color: #000;
+	
+	
+	padding-top: 5px !important;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	margin: 0px;
+}
+
+.jTPS tbody td {
+	height: 4em;
+	font:10px "Verdana", sans-serif;
+	color:#000000; /*color de texto adentro de las celdas */
+	border-bottom-width: 1px;
+	border-bottom-style:dotted;
+	border-bottom-color: #c9cbb0;
+/*	padding: 5px; */ 
+	text-align:center;
+}
+.jTPS tbody td a{
+	font:10px "Verdana", sans-serif;
+	color:#000000; /*color de texto adentro de las celdas */
+	text-decoration: none;
+
+}
+.jTPS tbody td a:hover{
+	color:#00D; /*color de texto adentro de las celdas */
+	text-decoration: underline;
+
+}

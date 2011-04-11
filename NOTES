@@ -1,0 +1,55 @@
+1) Instalar PHP manager for IIS de web platform installer (install php 5.3.5
+   Habilitar CGI
+    Control Panel > Programs Ad features > turn windows features on or off
+    Server Manager > Roles > Add Role services (select role services) select CGI
+    if there are problems with the configuration file see http://support.microsoft.com/kb/942055
+
+    possible premission problems. The file that contains the website's code needs to have appropiate permissions.
+    properties > security > Group or user names: SYSTEM, win\alce, win\Administradores win\Usuarios win\IIS_IUSRS
+
+    php.ini:
+      enable short_open_tag
+      error reporting
+
+    possible erros:
+      Deprecated: Call-time pass-by-reference has been deprecated
+      set allow_call_time_pass_reference to true in your INI file
+
+      Deprecated: Assigning the return value of new by reference is deprecated
+      error_reporting(0)
+
+    server variables may not be the same.
+      $_SERVER['xxxx']
+
+
+   no platform installation:
+   http://learn.iis.net/page.aspx/246/using-fastcgi-to-host-php-applications-on-iis-7/
+
+2) Install php drivers for php
+   Install sqls server 2008 r2 feature pack
+   http://www.microsoft.com/downloads/en/details.aspx?FamilyID=80e44913-24b4-4113-8807-caae6cf2ca05
+
+
+
+
+1) Run php_info in IIS ok
+2) Run the app in IIS & mysql ok
+3) Run the app in osx. clean up and orginize code and assets
+4) Run the app again in IIS & mysql
+
+5) Configure IIS, mysql & MSSQL (run simple app)
+6) See if phpmy admin can dump a file that can be read by MSSQL
+7) Learn MSSQL equivalent to mysql's source or <
+8) Create mssql equivalent to mysqldump
+9) Investigate about views
+10) Start migration
+
+
+Local SQLServer instalation
+  -named instance SQLExpress
+  -instance ID SQLExpress
+  -SERvice accounts: SQL Server Database Engine NT AUTHORITY\NETWORK SERVICE
+  -Authentication mode Mixed mode
+  -sa (server system administrator) password 52546064
+  -user alce is server administrator
+

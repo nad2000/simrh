@@ -1,0 +1,11 @@
+@charset "utf-8";
+/* CSS Document */
+h1{	padding-bottom: 3px;	width: 100%;	font: 1.2em Georgia, serif;	color:#ac0402;	border-bottom:dotted 1px #c0c0c0;}
+
+.paddingbody{padding:20px;}
+h4{font-size:11px;	padding-left:3px; padding-top:2px; background: #aaac90 url(imagenes/th_bkg.gif) repeat-x; color: #393b24;text-align:left;margin:0px; margin-bottom:20px;}
+
+a:link {color:#ac0402; text-decoration:underline;}
+a:visited {color:#ac0402; text-decoration:underline;}
+a:hover {color: blue; text-decoration:underline;}
+

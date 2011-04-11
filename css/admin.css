@@ -1,0 +1,9 @@
+@charset "utf-8";
+/* CSS Document */
+h1{	padding-bottom: 3px;	width: 100%;	font: 1.2em Georgia, serif;	color:#ac0402;	border-bottom:dotted 1px #c0c0c0;}
+
+.paddingbody{padding:20px;}
+th{	padding-left:3px; padding-top:2px; padding-right:3px; background: #aaac90 url(../imagenes/th_bkg.gif) repeat-x; color: #393b24;font-weight: normal;text-align:left;}
+td { font-size:10px;padding: 3px; background-color:#FFFFFF; 	border-bottom:solid 1px #ecebf0;	text-align:left;}
+h4{font-size:11px;	padding-left:3px; padding-top:2px; background: #aaac90 url(../imagenes/th_bkg.gif) repeat-x; color: #393b24;text-align:left;margin:0px; margin-bottom:20px;}
+
